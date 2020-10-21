@@ -9,4 +9,6 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface EventRepository extends CrudRepository<Event, Integer> {
-}
+
+} //this special interface allows code to store and retrieve object instances from a database of a specific type
+
